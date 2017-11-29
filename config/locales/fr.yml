@@ -202,8 +202,9 @@ fr:
             disempowerd: "L'utilisateur a perdu les droits d'administrateur"
         settings:
           test_ldap_connection:
-            successful: "Connexion au serveur Ldap réussie"
-            failed: "Connexion au serveur Ldap échoué"
+            successful: "Connexion au serveur Ldap %{hostname} réussie"
+            failed: "Connexion au serveur Ldap %{hostname} échoué"
+            no_hostname_present: "Aucun nom d'hôte n'existe"
     members:
       added: "%{username} a été enlevé avec succès à l'équipe"
       removed: "%{username} a été ajouté avec succès à l'équipe"

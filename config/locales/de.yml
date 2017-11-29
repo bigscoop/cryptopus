@@ -199,8 +199,9 @@ de:
             disempowered: "Dem Benutzer %{username} wurden die Admin-Rechte entzogen"
         settings:
           test_ldap_connection:
-            successful: "Verbindung zum Ldap Server erfolgreich"
-            failed: "Verbindung zum Ldap Server fehlgeschlagen"
+            successful: "Verbindung zum Ldap Server %{hostname} erfolgreich"
+            failed: "Verbindung zum Ldap Server %{hostname} fehlgeschlagen"
+            no_hostname_present: "Kein Hostname vorhanden"
       members:
         added: "%{username} wurde erfolgreich hinzugefügt"
         removed: "%{username} wurde erfolgreich entfernt"

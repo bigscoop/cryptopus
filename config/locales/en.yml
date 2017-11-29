@@ -199,8 +199,9 @@ en:
             disempowered: "%{username} is no more admin"
         settings:
           test_ldap_connection:
-            successful: "Connection to Ldap Server successful"
-            failed: "Connection to Ldap Server failed"
+            successful: "Connection to Ldap Server %{hostname} successful"
+            failed: "Connection to Ldap Server %{hostname} failed"
+            no_hostname_present: "No hostname present" 
       members:
         removed: "%{username} was successfully removed from team"
         added: "%{username} was successfully added to team"

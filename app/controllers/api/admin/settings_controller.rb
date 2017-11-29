@@ -9,27 +9,34 @@ class Api::Admin::SettingsController < ApiController
 
   def test_ldap_connection
     settings = params[:settings]
-    params = settings_params(settings)
-    begin
-      ldap_connection(params)
-      add_info(t('flashes.api.admin.settings.test_ldap_connection.successful'))
-    rescue
-      add_info(t('flashes.api.admin.settings.test_ldap_connection.failed'))
+    if settings[:'host-list'].present?
+      settings[:'host-list'].each do |hostname|
+        params = settings_params(hostname, settings)
+        message(params, hostname)
+      end
+    else
+      add_error(t('flashes.api.admin.settings.test_ldap_connection.no_hostname_present'))
     end
     render_json ''
   end
 
   private
 
+  def message(params, hostname)
+    ldap_connection(params)
+    add_info(t('flashes.api.admin.settings.test_ldap_connection.successful', hostname: hostname))
+  rescue
+    add_error(t('flashes.api.admin.settings.test_ldap_connection.failed', hostname: hostname))
+  end
+
   def ldap_connection(params)
     ldap = Net::LDAP.new(params)
     ldap.bind ? true : false
   end
 
-  def settings_params(settings)
-    { host: settings[:'host-list'].first,
+  def settings_params(hostname, settings)
+    { host: hostname,
       port: settings[:portnumber],
       encryption: settings[:encryption] }
   end
-
 end
