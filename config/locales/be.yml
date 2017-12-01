@@ -8,31 +8,31 @@
 be:
   fallback: "ACHTUNG! Das isch d Cryptopus Fallback Umgebig. Schrib keni neue Date wöu si nid erhalte blibe!"
   confirmation: "Bisch sicher?"
-  show: "Anzeige"
+  show: "Ahzeigä"
   edit: "Editiere"
-  update: "Update"
-  create: "Ersteue"
-  delete: "Lösche"
-  add: "Hinzufüege"
+  update: "Aktualisiere"
+  create: "Ersteuä"
+  delete: "Löschä"
+  add: "Drzuätuä"
   description: "Beschribig"
   username: "Benutzername"
   password: "Passwort"
-  actions: "Aktione"
+  actions: "Aktionä"
   download: "Abäladä"
   yes: "Ja"
   no: "Nei"
   forgot_password: "Hesch z Passwort vergässä?"
   logout: "Abmäudä"
-  auto_logout: "outomatisch Abmeude i"
+  auto_logout: "outomatisch Abmäudä i"
   settings: "Istellige"
-  recrypt_requests: "Recrypt Afrage"
+  recrypt_requests: "Recrypt Afragä"
   users: "Benutzer"
-  change_password: "Passwort wechsle"
-  last_login_date_and_from: "Ds letschte Login isch am %{last_login_at} gsi vo %{last_login_from}"
-  last_login_date_and_from_country: "Ds letschte Login isch am %{last_login_at} gsi vo %{last_login_from} (%{last_login_country})"
-  last_login_date: "Ds letschte Login isch am %{last_login_at} gsi"
+  change_password: "Passwort wächslä"
+  last_login_date_and_from: "Ds letschtä Login isch am %{last_login_at} gsi vo %{last_login_from}"
+  last_login_date_and_from_country: "Ds letschtä Login isch am %{last_login_at} gsi vo %{last_login_from} (%{last_login_country})"
+  last_login_date: "Ds letschtä Login isch am %{last_login_at} gsi"
   unencrypted_field_caption: nicht verschlüsselt
-  group: "Gruppe"
+  group: "Gruppä"
   team: "Team"
   move: "Bewegä"
 
@@ -41,10 +41,10 @@ be:
       name: 'Bärndütsch'
 
   search:
-    title: "Sueche"
+    title: "Suechä"
     index:
       hi_user: "Hallo %{username}! Suechsch es Passwort?"
-      no_results_found: "keni Resultat gfunde"
+      no_results_found: "keni Ergäbniss gfunde"
       type_to_search: "Tippe für z sueche..."
 
   accounts:
@@ -53,10 +53,10 @@ be:
       move: "Account zure angere Gruppe verschiebe"
       title: "Accounts vo dr Gruppe %{group_name} vom Team %{team_name}"
     index_menu:
-      create: "Account ersteue"
-      group: "Gruppe"
+      create: "Account ersteuä"
+      group: "Gruppä"
     show_menu:
-      add_attachment: "Anhang hinzufüege"
+      add_attachment: "Anhang hinzufüegä"
     edit:
       title: "Account editiere"
       random_password: "Zuefäuigs Passwort"
@@ -65,7 +65,7 @@ be:
       last_change: "Letschti Änderig vor %{time_ago}"
       attachments: "Ahäng"
       file: "Datei"
-      show_password: "Passwort azeige"
+      show_password: "Passwort ahzeigä"
     new:
       title: "Nöie Account"
 
@@ -86,7 +86,7 @@ be:
         admin_required: "Admin erforderläch"
         recrypt: "Entschlüssle"
       request:
-        request_sent: "Es isch e Recrypt Anfrag gsändet worde. Bitte wart, bis si oder er d Passwörter nöi verschlüsslet hei."
+        request_sent: "Es isch e Recrypt Ahfrag gsändet worde. Bitte wart, bis si oder er d Passwörter nöi verschlüsslet hei."
       uncrypterror:
         new_password: "Nöis Passwort?!"
         ldap_password_changed: "Dis LDAP Passwort het sech sit dim letschte Login gänderet."
@@ -99,18 +99,18 @@ be:
           Entstö dür das privati Teams uf die niemer Zuegriff het, wärdä die glöscht.
           Nachdäm z Formular isch abgsendet worde, muesch warte, bis ä Admin d Afrag abgarbeitet het.
         recrypt: "Recrypt"
-        send: "Anfrag sändä"
+        send: "Ahfrag sändä"
     users:
       index_menu:
-        create: "Benutzer ersteue"
+        create: "Benutzer ersteuä"
       edit:
         title: "Benutzer bearbeite"
         reset_password: "Passwort zrüggsetze"
         warning: "Z Zrüggsetze vom Benutzer-Passwort füehrt zum Verlust vom Zuegriff uf aui private Teams u d Löschig vo aune Teams, i dene er z einzige Mitglied isch"
       index:
         title: "Lischtä vo aune Cryptopus Benutzer"
-        username: "Benutzername"
-        name: "Name"
+        username: "Benutzernamä"
+        name: "Namä"
         ldap_uid: "LDAP UID"
         last_login_at: "Letschti Ameudig am"
         last_login_from: "Letschti Ameudig vo"
@@ -120,7 +120,7 @@ be:
         unlock: "Entsperre"
       last_teammember_teams:
         message: "Folgendi Teams i dene dr zu löschend Benutzer ds letschte Mitglied isch müesse glöscht werde."
-        delete_user: "Bisch sicher, dass du de Benutzer wosch lösche?"
+        delete_user: "Bisch sicher, dass du dä Benutzer wosch lösche?"
         destroy: "Benutzer lösche"
       new:
         title: "Nöie Benutzer"
@@ -132,8 +132,8 @@ be:
     edit:
       title: "Gruppe bearbeite"
     index:
-      title: "Gruppen vom Team %{team_name}"
-      group: "Gruppe"
+      title: "Gruppä vom Team %{team_name}"
+      group: "Gruppä"
       members: "Mitglider"
       add_member: "Mitglied hinzuefüege"
       admins: "Admins"
@@ -143,16 +143,16 @@ be:
   items:
     new:
       title: "Ahang zum Account hinzuefüege"
-      upload: "Datei für z Hochlade"
-      upload_file: "Datei hochlade"
+      upload: "Datei zum Ufeladä"
+      upload_file: "Datei ufeladä"
 
   logins:
     login:
-      title: "Ameude"
-      description: "Bitte gib di Benutzername u dis Passwort i um z Cryptopuschönne z bruche."
-      submit: "Ameude"
+      title: "Amäudä"
+      description: "Bitte gib di Benutzername u dis Passwort i zum z'Cryptopus chönne z bruche."
+      submit: "Amäudä"
     logout:
-      title: "Abmeude"
+      title: "Abmäudä"
       message: "Ufwiderluege"
       hint: "Bitte lösch dr Cache vo dim Brauser."
     newuser:
@@ -164,7 +164,7 @@ be:
       title: "Passwort wechsle"
       old: "Auts Passwort"
       new: "Nöis Passwort"
-      new_retype: "Nöis Passwort (widrhole)"
+      new_retype: "Nöis Passwort (nomau)"
       submit: "Ändere"
 
   teammembers:
@@ -178,7 +178,7 @@ be:
   teams:
     title: "Teams"
     form:
-      private: "Prifat"
+      private: "Privat"
     index_menu:
       create: "Team ersteue"
     index:
@@ -187,7 +187,7 @@ be:
     new:
       title: "Nöis Team ersteue"
     description:
-      private: Admins hei ke Zuegriff we si agwäut si
+      private: "Admins hei ke Zuegriff we si agwäut si"
 
   flashes:
     api:
@@ -239,10 +239,10 @@ be:
       uploaded: "D Datei isch erfougrich ufeglade worde."
       uploaded_size_to_high: "D Datei isch z gross für z ufelade. (Maximau 10MB)"
       uploaded_filename_is_empty: "D Datei muess e Name ha"
-      uploaded_file_inexistent: "D Datei isch inexistent"
+      uploaded_file_inexistent: "Die Datei existiert gar nid"
     logins:
       welcome: "Willkomme bim Cryptopus. Zerscht muesch e nöie Account ersteue. Bitte wäu es sicheres Passwort."
-      auth_failed: "Ungültige Benutzername / Passwort."
+      auth_failed: "Irgendöppis vo dine Logindate isch fautsch"
       only_local: "Nume lokali Benutzer dörfe ires Passwort ändere."
       new_password_set: "Ds nöie Passwort isch erfougrich gsetzt worde."
       new_passwords_not_equal: "Di nöie Passwörter si nid glich."
