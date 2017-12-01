@@ -6,7 +6,7 @@
 # See https://github.com/svenfuchs/rails-i18n/tree/master/rails%2Flocale for starting points.
 
 de:
-  fallback: "ACHTUNG! Dass ist die Cryptopus Fallback Umgebung. Schreiben sie keine neuen Daten da diese nicht erhalten bleiben!"
+  fallback: "ACHTUNG! Das ist die Cryptopus Fallback Umgebung. Schreiben sie keine neuen Daten da diese nicht erhalten bleiben!"
   confirmation: "Sind Sie sicher?"
   show: "Anzeigen"
   edit: "Editieren"
@@ -106,7 +106,7 @@ de:
       edit:
         title: "Benutzer bearbeiten"
         reset_password: "Passwort zurücksetzen"
-        warning: "Das zurücksetzen des Passworts eines Benutzers führt zum Verlust des Zugriff auf alle Private Teams und die löschung aller Teams, in denen er der einzige Member ist"
+        warning: "Das Zurücksetzen des Passworts eines Benutzers führt zum Verlust des Zugriff auf alle Private Teams und die Löschung aller Teams, in denen er der einzige Member ist"
       index:
         title: "Liste aller Cryptopus Benutzer"
         username: "Benutzername"
@@ -247,7 +247,7 @@ de:
       new_password_set: "Das neue Passwort wurde erfolgreich gesetzt."
       new_passwords_not_equal: "Die neuen Passwörter sind nicht gleich."
       not_local: "Sie sind kein lokaler Benutzer!"
-      locked: "Der Benutzer ist momentan gesperrt. Bitte versuchen Sie es später nocheinmal oder kontaktiern Sie den Administrator."
+      locked: "Der Benutzer ist momentan gesperrt. Bitte versuchen Sie es später noch einmal oder kontaktieren Sie den Administrator."
       weak_password: "Um die Sicherheit zu verbessern, sollten Sie ein komplexeres Passwort wählen"
     recryptrequests:
       recrypted: "Ihr Passwort wurde erfolgreich neu verschlüsselt."
@@ -257,8 +257,8 @@ de:
       wrong_user_password: "Geben Sie einen gültigen Benutzernamen und ein korrektes Passwort ein oder prüfen Sie Ihre LDAP Einstellungen."
       created: "Das Team wurde erfolgreich erstellt."
       updated: "Das Team wurde erfolgreich angepasst."
-      deleted: "Das Team wurde erfolgreich gelöscht"
-      cannot_delete: "Nur admins können das Team löschen"
+      deleted: "Das Team wurde erfolgreich gelöscht."
+      cannot_delete: "Nur Admins können das Team löschen"
       no_member: "Sie sind nicht Mitglied dieses Teams"
     teammembers:
       could_not_remove_last_teammember: "Der letzte Benutzer eines Teams kann nicht entfernt werden"
