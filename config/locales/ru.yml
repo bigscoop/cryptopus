@@ -148,24 +148,24 @@ ru:
 
   logins:
     login:
-      title: "Log in"
-      description: "Please enter your username and password to access cryptopus"
-      submit: "Login"
+      title: "Вход"
+      description: "Введите имя пользователя и пароль для входа в cryptopus"
+      submit: "Войти"
     logout:
-      title: "Logout"
-      message: "Bye"
-      hint: "Please clear your browser cache."
+      title: "Выйти"
+      message: "До свидания"
+      hint: "Пожалуйста, очистите кэш браузера."
     newuser:
-      title: "Welcome to Cryptopus"
-      description: "We created a new keypair for you. Enjoy Cryptopus."
+      title: "Добро пожаловать в Cryptopus"
+      description: "Мы создали новый секретный ключ для вас. Приятной работы с Cryptopus"
     noaccess:
-      title: "Access denied"
+      title: "В доступе отказано"
     show_update_password:
-      title: "Change password"
-      old: "Old password"
-      new: "New password"
-      new_retype: "New password (retype)"
-      submit: "Change"
+      title: "Изменение пароля"
+      old: "Старый пароль"
+      new: "Новый пароль"
+      new_retype: "Новый пароль (ещё раз)"
+      submit: "Изменить"
 
   teammembers:
     new:
