@@ -127,19 +127,19 @@ ru:
         title: "Новый пользователь"
 
   groups:
-    title: "Groups"
+    title: "Группы"
     index_menu:
-      create: "Create group"
+      create: "Создать группу"
     edit:
-      title: "Editing group"
+      title: "Редактирование группы"
     index:
-      title: "Groups for team %{team_name}"
-      group: "Group"
-      members: "Members"
-      add_member: "Add member"
-      admins: "Admins"
+      title: "Группы для команды %{team_name}"
+      group: "Группа"
+      members: "Участники группы"
+      add_member: "Добавить участника"
+      admins: "Администраторы"
     new:
-      title: "New group"
+      title: "Новая группа"
 
   items:
     new:
