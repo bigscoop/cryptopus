@@ -143,9 +143,9 @@ ru:
 
   items:
     new:
-      title: "Add new attachment to account"
-      upload: "File to upload"
-      upload_file: "Upload file"
+      title: "Добавить вложение к аккаунту"
+      upload: "Файл для загрузки"
+      upload_file: "Загрузить файл"
 
   logins:
     login:
