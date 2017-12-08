@@ -170,25 +170,25 @@ ru:
 
   teammembers:
     new:
-      title: "Add a new teammember"
+      title: "Добавить нового участника команды"
     confirm:
-      delete: "Remove %{entry_label} from team ?"
-    show: "Show members"
-    hide: "Hide members"
+      delete: "Удалить %{entry_label} из команды?"
+    show: "Показать участников"
+    hide: "Скрыть участников"
 
   teams:
-    title: "Teams"
+    title: "Команды"
     form:
-      private: "Private"
+      private: "Приватная"
     index_menu:
-      create: "Create new team"
+      create: "Создать новую команду"
     index:
-      title: "You are member of the following teams:"
-      team: "Team"
+      title: "Вы состоите в следующих командах:"
+      team: "Команда"
     new:
-      title: "Create a new team"
+      title: "Создать новую команду"
     description:
-      private: admins have no access if checked
+      private: "Запретить доступ администраторам"
 
   flashes:
     api:
