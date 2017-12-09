@@ -195,37 +195,37 @@ ru:
       admin:
         users:
           toggle:
-            empowered: "%{username} is now an admin"
-            disempowered: "%{username} is no more admin"
+            empowered: "%{username} теперь администратор"
+            disempowered: "%{username} больше не администратор"
       members:
-        removed: "%{username} was successfully removed from team"
-        added: "%{username} was successfully added to team"
+        removed: "%{username} был удалён из команды"
+        added: "%{username} был добавлен в команду"
     wizard:
-      fill_password_fields: "Please provide an initial password"
-      paswords_do_not_match: "Passwords do not match"
+      fill_password_fields: "Пожалуйста, введите начальный пароль"
+      paswords_do_not_match: "Пароли не совпадают"
     admin:
       admin:
-        no_access: "Access denied"
+        no_access: "В доступе отказано"
       settings:
-        example: "These are example settings. Please overwrite them with your settings."
-        successfully_updated: "Your settings were successfully updated."
+        example: "Это примерные настройки. Пожалуйста замените их вашими."
+        successfully_updated: "Ваши настройки были обновлены."
       recryptrequests:
-        some: "Successfully recrypted some passwords for %{user_name}"
-        all: "Successfully recrypted all passwords for %{user_name}"
+        some: "Успешно перешифрованы некоторые пароли для %{user_name}"
+        all: "Успешно перешифрованы все пароли для %{user_name}"
         resetpassword:
-          success: "Successfully reset password"
-          required: "The password must not be blank"
+          success: "Пароль сброшен"
+          required: "Пароль должен быть непустым"
       users:
-        created: "Successfully created a new user."
+        created: "Создан новый пользователь."
         destroy:
-          own_user: "You can't delete your-self"
-          root: "Root cannot be deleted"
+          own_user: "Вы не можете удалить сами себя"
+          root: "Пользователь Root не может быть удалён"
         update:
-          root: "Root cannot be updated"
-          ldap: "Ldap user cannot be updated"
+          root: "Пользователь Root не может быть изменён"
+          ldap: "Ldap-пользователь не может быть изменён"
       maintenance_tasks:
-        succeed: "Task was executed successfully."
-        failed: "Task failed. See logs for more information."
+        succeed: "Задача успешно выполнена."
+        failed: "Задача не выполнена. Детали в логах."
 
     accounts:
       created: "Account was successfully created."
