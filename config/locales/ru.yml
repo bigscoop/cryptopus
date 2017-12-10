@@ -228,19 +228,19 @@ ru:
         failed: "Задача не выполнена. Детали в логах."
 
     accounts:
-      created: "Account was successfully created."
-      updated: "Account was successfully updated."
-      moved: "Account was successfully moved"
+      created: "Аккаунт создан."
+      updated: "Аккаунт обновлён."
+      moved: "Аккаунт перемещён"
     application:
-      wait: "Wait for the recryption of your team passwords."
+      wait: "Подождите окончания перешифрования ваших командных паролей."
     groups:
-      created: "Successfully created a new group."
-      updated: "Group was successfully updated."
+      created: "Новая группа создана."
+      updated: "Группа обновлена."
     items:
-      uploaded: "File was successfully uploaded."
-      uploaded_size_to_high: "The file is too big to upload. (max. 10MB)"
-      uploaded_filename_is_empty: "The file has to be named"
-      uploaded_file_inexistent: "File is inexistent"
+      uploaded: "Файл загружен."
+      uploaded_size_to_high: "Файл слишком большой (макс. 10 МБ)"
+      uploaded_filename_is_empty: "Файл должен иметь имя"
+      uploaded_file_inexistent: "Файл не существует"
     logins:
       weak_password: "To improve security you should change your login password to a more complex one."
       welcome: "Welcome to Cryptopus, first you have to create a new account. Please enter a new password"
