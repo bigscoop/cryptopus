@@ -267,9 +267,9 @@ ru:
       could_not_remove_admin_from_private_team: "Не удалось удалить администратора из приватной команды"
 
   confirm:
-    delete: "Delete %{entry_class} %{entry_label} ?"
-    changeAdmin: "give/remove Admin-Rights?"
-    deleteWithTeams: "Delete all teams where %{username} is the last teammember"
+    delete: "Удалить %{entry_class} %{entry_label} ?"
+    changeAdmin: "дать/забрать права администратора?"
+    deleteWithTeams: "Удалить все команды, в которых кроме пользователя %{username} никого нет"
 
 #Validation Errors
   activerecord:
