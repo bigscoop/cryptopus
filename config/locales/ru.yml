@@ -279,13 +279,13 @@ ru:
         header: ''
       models:
         user:
-          new_password_invalid: "Your NEW password was wrong"
-          old_password_invalid: "Your OLD password was wrong"
+          new_password_invalid: "Ваш новый пароль неверен"
+          old_password_invalid: "Ваш старый пароль неверен"
         item:
           attributes:
             filename:
-              blank: 'Filename does not exist'
-              taken: 'Filename is already taken'
+              blank: 'Имя файла не задано'
+              taken: 'Имя файла уже занято'
 
   password_strength:
     weak: "The password is weak"
