@@ -288,6 +288,6 @@ ru:
               taken: 'Имя файла уже занято'
 
   password_strength:
-    weak: "The password is weak"
-    good: "The password is good"
-    strong: "The password is strong!"
+    weak: "Слабый пароль"
+    good: "Хороший пароль"
+    strong: "Сильный пароль!"
