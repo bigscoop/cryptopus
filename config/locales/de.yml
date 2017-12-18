@@ -21,6 +21,7 @@ de:
   download: "Herunterladen"
   yes: "Ja"
   no: "Nein"
+  help: "Hilfe"
   forgot_password: "Passwort vergessen?"
   logout: "Abmelden"
   auto_logout: "automatisches Abmelden in"

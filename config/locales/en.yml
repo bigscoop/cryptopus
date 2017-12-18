@@ -21,6 +21,7 @@ en:
   download: "Download"
   yes: "Yes"
   no: "No"
+  help: "Help"
   forgot_password: "Forgot your password?"
   logout: "Logout"
   auto_logout: "auto-logout in"

@@ -21,6 +21,7 @@ zh:
   download: "下载"
   yes: "是"
   no: "否"
+  help: "Help"
   forgot_password: "忘记你的密码？"
   logout: "注销"
   auto_logout: "自动注销"

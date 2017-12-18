@@ -21,6 +21,7 @@ ru:
   download: "Скачать"
   yes: "Да"
   no: "Нет"
+  help: "Помощь"
   forgot_password: "Забыли пароль?"
   logout: "Выйти"
   auto_logout: "автоматический выход через"
