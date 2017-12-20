@@ -73,6 +73,7 @@ de:
       title: "Neuer Account"
 
   admin:
+    title: "Admin"
     maintenance_tasks:
       index:
         title: "Wartungsaufgaben"

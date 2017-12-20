@@ -73,6 +73,7 @@ zh:
       title: "新帐户"
 
   admin:
+    title: "Admin"
     maintenance_tasks:
       index:
         title: "维护任务"

@@ -74,6 +74,7 @@ fr:
       title: "Nouveau compte"
 
   admin:
+    title: "Admin"
     maintenance_tasks:
       index:
         title: "Les tâches de maintenance"

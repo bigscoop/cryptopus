@@ -73,6 +73,7 @@ ru:
       title: "Новый аккаунт"
 
   admin:
+    title: "Администрирование"
     maintenance_tasks:
       index:
         title: "Задачи обслуживания"
