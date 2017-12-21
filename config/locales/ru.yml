@@ -38,6 +38,10 @@ ru:
   group: "Группа"
   team: "Команда"
   move: "Переместить"
+  executed_at: "Выполнено"
+  status: "Статус"
+  output: "Вывод"
+  executer: "Исполнитель"
 
   i18n:
     language:
